@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<title>lyion-store</title>
+<h1 style="text-align:center;">open request</h1>
+<style>
+ul {
+     list-style-type:none;
+	 magin:10px;
+	padding:0;
+	text-align:center;
+	background-color:black;
+	color:white;
+
+	
+	}
+	li{
+	display:inline;
+	margin-left:15px;
+
+	
+	
+	
+	}
+	a{
+color:white;
+	
+	}
+	
+	
+	</style>
+</head>
+<body>
+<Ul>
+<li><a href="clients.html" style="text-decoration:none;">client</a> </li>
+<li><a href="database.html" style="text-decoration:none;">data base</a></li>
+<li><a href="dashbord.html" style="text-decoration:none;">dashbord</a></li>
+</Ul>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+display Date and Time.</button>
+
+<p id="demo"></p>
+
+<table border="1">
+<tr>
+      <th>client name</th>
+	  <th>age</th>
+	  <th>time of payment</th>
+	   <th>adress</th>
+	    <th>social link</th>
+		 <th>phone</th>
+	  </tr>
+	  <tr>
+	  <td>ahmed mohmed</td>
+      <td>22</td>
+      <td>11/2/2020</td>
+	  <td>123 street</td>
+	  <td>facebook.com/ahmed-mohamed00</td>
+	  <td>0163546126</td>
+      </tr>
+	   <tr>
+	  <td>account1@lyion-store.com</td>
+      <td>us</td>
+      <td>250</td>
+	  <td>250</td>
+	  <td>350</td>
+	  <td>350</td>
+      </tr>
+	  <script>
+function light(sw) {
+  var pic;
+  if (sw == 0) {
+    pic = "lightoff.gif"
+  } else {
+    pic = "lightonn.gif"
+  }
+  document.getElementById('lightoff').src = pic;
+}
+</script>
+
+<img id="lightoff" src="lightoff" width="100" height="180">
+
+<p>
+<button type="button" onclick="light(1)">Light On</button>
+<button type="button" onclick="light(0)">Light Off</button>
+</p>
+
+<style>
+body  {
+  height: 800px;
+  background-color: #cccccc;
+  background-image: linear-gradient(azure,blue);
+}	  
+</table>	  
+
+</body>
+</html>
